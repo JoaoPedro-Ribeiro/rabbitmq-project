@@ -1,0 +1,18 @@
+{
+  "name": "rabbitmq-project",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <img src=\"https://www.rabbitmq.com/img/rabbitmq-logo-with-name.svg\" width=\"200\" alt=\"RabbitMQ Logo\" /> </p> <div align=\"center\" >   <p>This project was developed with the objective of reviewing the concepts of RabbitMQ with Node.js<p> </div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.5"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.7"
+  }
+}
