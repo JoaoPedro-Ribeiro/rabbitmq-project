@@ -1,0 +1,22 @@
+{
+  "apps": [
+    {
+      "name": "API",
+      "script": "./dist/index.js",
+      "watch": false,
+      "instances": "1",
+      "max_memory_restart": "300M",
+      "out_file": "./logs/API-error.log",
+      "error_file": "./logs/API-error.log"
+    },
+    {
+      "name": "CONSUMER",
+      "script": "./dist/consumer.js",
+      "watch": false,
+      "instances": "5",
+      "max_memory_restart": "300M",
+      "out_file": "./logs/CONSUMER-error.log",
+      "error_file": "./logs/CONSUMER-error.log"
+    }
+  ]
+}
